@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6B778E">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="简介"
+        android:textSize="35sp"
+        android:textColor="#00C3FF"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/hero1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F0EDF2" />
+
+    <TextView
+        android:id="@+id/hero2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F0EDF2" />
+
+    <TextView
+        android:id="@+id/hero3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F0EDF2" />
+
+    <TextView
+        android:id="@+id/hero4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F0EDF2" />
+
+    <TextView
+        android:id="@+id/hero5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="30sp"
+        android:textColor="#00C3FF"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/hero6"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#516080"
+        android:textColor="#F0EDF2" />
+
+</LinearLayout>
